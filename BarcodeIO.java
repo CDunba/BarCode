@@ -1,9 +1,4 @@
 public interface BarcodeIO {
-	//Data
-	 
-	public static final char BLACK_CHAR = '*';
-	public static final char WHITE_CHAR = ' ';
-	 
 	//method signatures
 	public boolean scan(BarcodeImage bc);
 	/*
